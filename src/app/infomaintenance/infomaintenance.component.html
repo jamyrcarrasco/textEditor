@@ -1,0 +1,25 @@
+<body class="containerWhite">
+  
+<h1 class="pageSectionTitle">Mantenimiento de Informacion General</h1>
+<hr class="highlighter" align="left">
+
+  <table>
+    <tr><td>Texto a Guardar:</td></tr>
+    <tr>
+        <td colspan="3">
+            <textarea id="inputTextToSave" cols="80" rows="25"></textarea>
+        </td>
+    </tr>
+    <tr>
+        <td>Nombre del Archivo:</td>
+        <td><input id="inputFileNameToSaveAs"></td>
+        <td><button class="btnEde" onclick="saveTextAsFile()">Guardar Archivo</button></td>
+    </tr>
+    <tr>
+        <td>Seleciona un Archivo:</td>
+        <td><input class="" type="file" id="fileToLoad"></td>
+        <td><button type="button" class="btnEde" onclick="loadFileAsText()">Cargar Archivo Seleccionado</button><td>
+    </tr>
+  </table>
+</body>
+
